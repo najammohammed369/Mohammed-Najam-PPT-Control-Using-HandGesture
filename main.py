@@ -72,7 +72,7 @@ while True:
                     if imgNumber > 0:
                         buttonPressed = True
                         Presentation.SlideShowWindow.View.Next()
-                        imgNumber -= 1
+                        imgNumber += 1
                         annotations = [[]]
                         annotationNumber = 0
                     else:
@@ -84,7 +84,7 @@ while True:
                     if imgNumber > 0:
                         buttonPressed = True
                         Presentation.SlideShowWindow.View.Previous()
-                        imgNumber += 1
+                        imgNumber -= 1
                         annotations = [[]]
                         annotationNumber = -1
                     else:
